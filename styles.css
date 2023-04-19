@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.attribution {
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: rgb(243,234,227);
+}
+
+.card {
+  border-radius: 2%;
+  overflow: hidden;
+  display: flex;
+  width: 600px;
+  height: 450px
+}
+
+.description {
+  padding-left: 20px;
+  background-color: whitesmoke;
+}
+
+.perfume-picture {
+  height: 450px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.sale-price {
+  padding-right: 1rem;
+}
+
+.listed-price {
+  padding-left: 1rem;
+  text-decoration: line-through;
+  font-size: 1rem;
+}
+
+.add-to-cart {
+  color: whitesmoke;
+  border: 1px;
+  border-radius: 3%;
+  background-color: green;
+}
